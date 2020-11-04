@@ -1,0 +1,12 @@
+name: TVL DeFiPulse Data
+description: An adapter for getting the current Total Value Locked in a protocol.
+node_identifier: DeFiPulseTVL
+platforms:
+  - Docker
+  - AWS Lambda
+  - GCP Functions
+data_sources:
+  - name: DeFi Pulse Data
+    url: https://data.defipulse.com/
+parameters:
+  - project
